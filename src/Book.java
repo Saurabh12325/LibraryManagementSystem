@@ -21,4 +21,13 @@ public class Book {
         return isIssued;
     }
 
+    public void issue() {
+        this.isIssued = true;
+    }
+    public void returnBook() {
+        this.isIssued = false;
+    }
+
 }
+
+
